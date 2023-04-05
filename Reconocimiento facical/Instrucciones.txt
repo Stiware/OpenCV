@@ -1,0 +1,11 @@
+1) se deben ejecutar el archivo llamado "capturandoRostros.py"
+2) se debe ejecutar el archivo "entrenandoRF.py"
+3) se debe ejecutar el archivo "RF.py"
+
+Notas: 
+*) en caso de salir algun error relacionado a LBPHFaceRecognizer_create o similares 
+ejecutare este comando en la consola: pip install opencv-contrib-python
+*) Para entrenar el reconociemiento facial con un video simplemente se descomenta
+la linea 15 del archivo capturandoRostros.py y se comenta la linea siguiente.
+Tambien se debe cambiar el nombre del video al nuevo que se desea utilizar.
+*) en caso de salir algun error relacionado a imutils ejecutar: pip install imutils
